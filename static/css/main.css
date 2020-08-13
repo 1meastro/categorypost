@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+
+.shape {
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 25px 400px 25px 400px;
+}
+
+.button {
+    margin: 25px 400px 25px 400px;
+}
+
+.h1{
+    margin: 25px 400px 25px 400px;
+    color: white;
+}
