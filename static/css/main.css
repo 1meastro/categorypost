@@ -6,7 +6,7 @@ body{
     border: 2px solid blue;
     padding: 10px;
     background-color: lightgray;
-    margin: 25px 400px 25px 400px;
+    margin: 1rem 13rem 1rem 13rem;
 }
 
 .button {
@@ -14,6 +14,44 @@ body{
 }
 
 .h1{
-    margin: 25px 400px 25px 400px;
+    
     color: white;
+}
+
+textarea{
+    width:100%;
+}
+
+#catname{
+    width:100%;
+}
+
+.sbutton{
+    margin: 1rem 13rem 1rem 13rem;
+}
+
+
+.tshape {
+    padding: 10px;
+    background-color: lightgray;
+    margin: 1rem 13rem 1rem 13rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .shape {
+        border: 2px solid blue;
+        padding: 10px;
+        background-color: lightgray;
+        margin: 1rem 8rem 1rem 8rem;
+    }
+
+    .sbutton{
+        margin: 1rem 8rem 1rem 8rem;
+    }
+
+    .tshape {
+        padding: 10px;
+        background-color: lightgray;
+        margin: 1rem 8rem 1rem 8rem;
+    }
 }
